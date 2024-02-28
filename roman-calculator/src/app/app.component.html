@@ -1,0 +1,22 @@
+<div class="container mt-5">
+  <h2>Roman Numeral Calculator</h2>
+  <div class="form-group">
+    <label for="input1">First Roman Numeral:</label>
+    <input type="text" class="form-control" id="input1" [(ngModel)]="numeral1">
+  </div>
+  <br>
+  <div class="form-group">
+    <label for="input2">Second Roman Numeral:</label>
+    <input type="text" class="form-control" id="input2" [(ngModel)]="numeral2">
+  </div>
+  <br>
+  <div class="form-group">
+    <label for="input2">Result:</label>
+    <input type="text" class="form-control" id="output" [(ngModel)]="result">
+  </div>
+  <br>
+  <button class="btn btn-primary" (click)="calculate()">Compute</button>
+  <div *ngIf="result" class="mt-3">
+    <p>Result: {{ result }}</p>
+  </div>
+</div>

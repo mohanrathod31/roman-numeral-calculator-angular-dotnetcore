@@ -1,0 +1,4 @@
+/* Adjust input field width */
+.form-control {
+    width: 50%; /* or specify a specific width */
+  }
