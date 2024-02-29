@@ -1,4 +1,56 @@
-/* Adjust input field width */
-.form-control {
-    width: 50%; /* or specify a specific width */
-  }
+/* CSS to style the form box */
+/* CSS to style the form box */
+.form-box {
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px; /* Padding inside the form box */
+    box-shadow: 0 0 20px rgba(0, 0, 255, 0.3);  /* Box shadow for a subtle effect */
+    margin: 0 auto; /* Center the box horizontally */
+    max-width: 500px; /* Set maximum width for the box */
+    border: 3px solid #007bff; /* Thick blue border for the form box */
+}
+
+/* Title style */
+.form-box h2 {
+    margin-top: 0; /* Remove top margin from the title */
+    color: #007bff; /* Blue headline color */
+    font-size: 28px; /* Increase font size */
+    margin-bottom: 20px; /* Add space below the headline */
+    text-align: center; /* Center align the headline */
+    text-transform: uppercase; /* Convert text to uppercase */
+    letter-spacing: 2px; /* Increase letter spacing */
+    font-weight: bold; /* Set font weight to bold */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); /* Add shadow effect */
+}
+
+
+/* Optional: Remove padding from form inputs */
+.form-box input,
+.form-box button {
+    padding: 0; /* Reset padding */
+}
+
+/* Input field style */
+.input-height {
+    border: 2px solid #33F9FF; /* Blue border for the input field */
+    border-radius: 5px;
+    padding: 10px; /* Add padding for space inside the input field */
+    font-size: 16px; /* Increase font size */
+    height: 45px; /* Set input field height */
+}
+
+/* Button style */
+.btn-primary {
+    background-color: #007bff; /* Blue background for the button */
+    border-color: #007bff; /* Blue border for the button */
+    border-radius: 5px;
+    padding: 10px 20px; /* Add padding for space inside the button */
+    font-size: 18px; /* Increase font size */
+    color: #fff; /* White text color */
+    width: 120px; /* Adjust the width as needed */
+    height: 45px; /* Set button height */
+}
+
+/* Placeholder text style */
+.form-control::placeholder {
+    padding-left: 10px; /* Adjust the padding as needed */
+}
