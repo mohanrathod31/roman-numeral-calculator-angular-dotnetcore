@@ -7,6 +7,7 @@ import { RomanCalculatorService } from './roman-calculator.service';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+  title = 'roman-calculator';
   numeral1: string = '';
   numeral2: string = '';
   result: string = '';
