@@ -1,0 +1,6 @@
+@RomanCalcAPI_HostAddress = http://localhost:5230
+
+GET {{RomanCalcAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
