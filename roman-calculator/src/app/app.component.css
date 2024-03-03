@@ -54,3 +54,7 @@
 .form-control::placeholder {
     padding-left: 10px; /* Adjust the padding as needed */
 }
+
+.error-message {
+    color: red;
+  }
